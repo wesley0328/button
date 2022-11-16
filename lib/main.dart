@@ -99,19 +99,19 @@ class MyStatelessWidget extends StatelessWidget {
               backgroundColor:  Colors.blue,
             ),
           ),
-          // const SizedBox(height: 30),
-          // OutlinedButton(
-          //   style: OutlinedButton.styleFrom(
-          //     foregroundColor: Colors.black,
-          //     side: BorderSide(width: 1,color: Colors.red),
-          //     textStyle: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
-          //   ),
-          //   onPressed: () {
-          //     // debugPrint('Received click');
-          //     showSnackBar("String msg");
-          //   },
-          //   child: const Text('OutlineButton',),
-          // ),
+          const SizedBox(height: 30),
+          OutlinedButton(
+            style: OutlinedButton.styleFrom(
+              foregroundColor: Colors.black,
+              side: BorderSide(width: 1,color: Colors.red),
+              textStyle: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
+            ),
+            onPressed: () {
+              // debugPrint('Received click');
+              // showSnackBar("String msg");
+            },
+            child: const Text('OutlineButton',),
+          ),
           const SizedBox(height: 20),
           IconButton(
             icon: const Icon(Icons.phone_iphone,color:Colors.blue,size:40,),
